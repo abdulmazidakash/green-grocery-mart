@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Grocery</title>
+    <style>
+        .container{
+        background-color: rgba(221, 215, 226, 0.42);
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .custom-button{
+            
+            background-color: transparent;
+            background-size: 0%;
+            background-image: linear-gradient( to right, green, gold);
+            transition: all 0.5s ease;
+
+           
+            color: rgba(0, 128, 128, 0.7);
+            font-size: 20px;
+            font-weight: 700;
+            padding: 15px 15px ;
+            /* margin-left: 150px; */
+            border: 5px solid teal;
+            border-radius: 5px;
+        }
+        .custom-button:hover {
+            background-size: 100%;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Love fish and vegetables</h1>
+    <div class="container">
+        <button class="custom-button"><a href="https://abdulmazidakash.blogspost.com"></a> Hire Me</button>
+    </div>
 </body>
 </html>
